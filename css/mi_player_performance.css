@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .fade-in-text {
+    font-size: 18px;
+    animation: fadeIn 5s;
+    color: rgb(225, 222, 219);
+  }
+
+  p {
+    font-size: 20px;
+    font-family: cursive;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 3px solid #08100e;
+    padding: 8px;
+    text-align: left;
+    color: black;
+  }
+  
+  th {
+    background-color: #1739a8;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ .fade-in-text .navbar {
+    background: none;
+    overflow: hidden;
+}
+
+
+
+.fade-in-text .navbar a {
+    float: right;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(248, 94, 94);
+    border-radius: 20px;
+}
+
+.fade-in-text .navbar a:hover {
+    background-color: red;
+    color: black;
+}
