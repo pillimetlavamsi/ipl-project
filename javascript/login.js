@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
       if (username === 'Kishan' && password === 'Kishan_2004') {
         alert('Login successful!');
-        window.location.href = '/ipl-project/html/dashboard.html'; 
+        window.location.href = '../ipl-project/html/dashboard.html'; 
       } else if (username === 'Vamsi' && password === 'Vamsi_2004') {
         alert('Login successful!');
-        window.location.href = '/ipl-project/html/dashboard.html';
+        window.location.href = '../ipl-project/html/dashboard.html';
       } else {
         alert('Invalid username');
       }
